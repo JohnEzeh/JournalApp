@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:indeterminate="true"
+        android:indeterminateTint="#ffa500"
+        android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_form"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:hint="@string/email_edittext"
+
+                />
+
+
+            <EditText
+                android:id="@+id/password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginTop="16dp"
+                android:maxLines="1"
+                android:hint="@string/email_password"/>
+
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:backgroundTint="#3CB371"
+                android:text="@string/login_btn"
+                />
+
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/or_text"
+                 android:layout_marginTop="16dp"
+                 android:textSize="25sp"
+                 android:textStyle="bold"
+                 android:gravity="center_horizontal"/>
+
+
+            <Button
+                android:id="@+id/login_create_account_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:textColor="#FFFFFF"
+                android:background="@android:color/transparent"
+                android:text="@string/need_an_account"
+                />
+
+
+        </LinearLayout>
+
+
+</LinearLayout>

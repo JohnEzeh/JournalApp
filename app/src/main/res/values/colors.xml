@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#c0ca33</color>
+    //actionbar color
+    <color name="purple_500">@color/endgcolor</color>
+    //top status bar
+    <color name="purple_700">@color/endgcolor</color>
+    <color name="yellowbg">#FFDE03</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startgcolor">#3a2c71</color>
+    <color name="centergcolor">#d76d77</color>
+    <color name="endgcolor">#ffaf7b</color>
+</resources>
